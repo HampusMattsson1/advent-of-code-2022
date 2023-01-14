@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hampus\\Desktop\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {}
+    "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hampus\\Desktop\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj": {
+    "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hampus\\Desktop\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+        "projectUniqueName": "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj",
         "projectName": "AdventOfCode",
-        "projectPath": "C:\\Users\\Hampus\\Desktop\\AdventOfCode\\AdventOfCode\\AdventOfCode.csproj",
+        "projectPath": "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj",
         "packagesPath": "C:\\Users\\Hampus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hampus\\Desktop\\AdventOfCode\\AdventOfCode\\obj\\",
+        "outputPath": "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hampus\\AppData\\Roaming\\NuGet\\NuGet.Config",
