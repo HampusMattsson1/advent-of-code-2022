@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj": {}
+    "C:\\Users\\ha2138\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj": {
+    "C:\\Users\\ha2138\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj",
+        "projectUniqueName": "C:\\Users\\ha2138\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj",
         "projectName": "AdventOfCode",
-        "projectPath": "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj",
-        "packagesPath": "C:\\Users\\Hampus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hampus\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\obj\\",
+        "projectPath": "C:\\Users\\ha2138\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\AdventOfCode.csproj",
+        "packagesPath": "C:\\Users\\ha2138\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ha2138\\source\\repos\\advent-of-code\\AdventOfCode 2022\\AdventOfCode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hampus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ha2138\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

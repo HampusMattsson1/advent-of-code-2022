@@ -856,4 +856,50 @@ public class Days
     }
 
 
+    public void Day10()
+    {
+        string[] input = ReadFile("../../../Input/day10.txt");
+        //string[] input = ReadFile("../../../test.txt");
+
+        int sumCycles = 0;
+
+        int AddCycle(int cycles, int regX, int[] strengthCycles)
+        {
+            cycles++;
+            if (strengthCycles.Contains(cycles))
+            {
+                Console.WriteLine("Strength during cycle " + cycles + ": " + regX * cycles + "   regX: " + regX);
+                sumCycles += regX * cycles;
+            }
+            return cycles;
+        }
+
+
+        int cycles = 0;
+        int regX = 1;
+
+        int[] strengthCycles = { 20, 60, 100, 140, 180, 220 };
+
+        foreach (var line in input)
+        {
+            var commands = line.Split(' ');
+
+            switch (commands[0])
+            {
+                case "noop":
+                    cycles = AddCycle(cycles, regX, strengthCycles);
+                    break;
+
+                case "addx":
+                    cycles = AddCycle(cycles, regX, strengthCycles);
+                    cycles = AddCycle(cycles, regX, strengthCycles);
+                    int num = Int32.Parse(commands[1]);
+                    //Console.WriteLine("Num: " + num);
+                    regX += num;
+                    break;
+            }
+        }
+        Console.WriteLine("Sum of cycles = " + sumCycles);
+    }
+
 }
